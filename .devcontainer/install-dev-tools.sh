@@ -9,7 +9,6 @@ wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/
 mv cuda-ubuntu2204.pin /etc/apt/preferences.d/cuda-repository-pin-600
 apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/3bf863cc.pub
 add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/ /" -y
-apt-get update
 apt-get install libcudnn8=8.9.4.*-1+cuda11.8
 apt-get install libcudnn8-dev=8.9.4.*-1+cuda11.8
 # install recommended packages
